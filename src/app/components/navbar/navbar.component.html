@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #356180;">
+    <div class="container-fluid">
+      <a class="navbar-brand   text-white" href="#">Lux Cinema</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
+          <li class="nav-item">
+            <a class="nav-link text-white" 
+             routerLinkActive="active"
+             routerLink="/dashboard"
+             routerLinkActiveOptions="linkActiveOptions"
+             >
+             Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/projectionMovie">Projections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" routerLink="/cinema" routerLinkActive="active">Cinema</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" routerLink="/salle">Salle</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" routerLink="/movie">Movie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/town">Town</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/category">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" routerLink="/ticket" tabindex="-1" aria-disabled="true">Tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
